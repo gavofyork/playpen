@@ -1,7 +1,7 @@
 {
-	"id": "mydapp",
-	"name": "My Dapp",
-	"description": "My demonstration dapp",
+	"id": "playpen",
+	"name": "The Playpen",
+	"description": "Place for playing",
 	"version": "0.1",
 	"author": "Gav",
 	"iconUrl": "title.png"
