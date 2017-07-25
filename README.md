@@ -1,17 +1,15 @@
-# Skeleton dapp.
+# Gav's Playpen
 
-To install:
-
-```
-$ npm install
-$ npm install -g webpack
-```
-
-To build:
+To install on Mac OS (assuming you already have NPM and node.js):
 
 ```
-webpack --watch
+cd
+git clone http://github.com/gavofyork/playpen
+cd playpen
+npm i
+npm i -g webpack
+webpack
+ln -s dist ~/Library/Application\ Support/io.parity.ethereum/dapps/playpen
 ```
 
-Files will be build into `dist/`. Just symlink that dir into your dapps path.
-
+Restart Parity and you should see the Playpen in the applications page.
