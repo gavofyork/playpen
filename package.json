@@ -5,7 +5,10 @@
   "main": "webpack.config.js",
   "dependencies": {
     "babel-core": "^6.24.1",
-    "parity-reactive-ui": "file:../parity-reactive-ui",
+    "buffer": "^5.0.6",
+    "ethereumjs-util": "^5.1.2",
+    "moment": "^2.18.1",
+    "parity-reactive-ui": "^0.4.12",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "webpack": "^2.5.1",
